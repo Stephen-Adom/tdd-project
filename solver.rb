@@ -1,7 +1,7 @@
 class Solver
   def factorial(number)
     return 1 if number.zero?
-    raise ArgumentError.new('A negative error passed as an argument') if number.negative?
+    raise ArgumentError, 'A negative error passed as an argument' if number.negative?
 
     result = 1
     (1..n).each do |num|
@@ -29,4 +29,3 @@ class Solver
     end
   end
 end
-
