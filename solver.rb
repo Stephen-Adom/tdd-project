@@ -1,7 +1,7 @@
 class Solver
-  def factorial(n)
-    return 1 if n.zero?
-    return ArgumentError.new('A negative error passed as an argument') if n.negative?
+  def factorial(number)
+    return 1 if number.zero?
+    raise ArgumentError.new('A negative error passed as an argument') if number.negative?
 
     result = 1
     (1..n).each do |num|
@@ -14,18 +14,19 @@ class Solver
     word.chars.reverse.join
   end
 
-  def fizzbuzz(n)
-    if (n % 3).zero? && n % 5 != 0
+  def fizzbuzz(number)
+    if (number % 3).zero? && number % 5 != 0
       'fizz'
 
-    elsif (n % 5).zero? && n % 3 != 0
+    elsif (number % 5).zero? && number % 3 != 0
       'buzz'
 
-    elsif (n % 3).zero? && (n % 5).zero?
+    elsif (number % 3).zero? && (number % 5).zero?
       'fizzbuzz'
 
     else
-      n
+      number
     end
   end
 end
+
