@@ -16,5 +16,11 @@ describe Solver do
         expect { @solver.factorial(-2) }.to raise_error(ArgumentError, 'A negative error passed as an argument')
       end
     end
+
+    context 'the reverse method' do
+      it 'should reverse the word "ruby" to "ybur"' do
+        expect(@solver.reverse('ruby')).to eql 'ybur'
+      end
+    end
   end
 end
