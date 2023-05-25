@@ -22,5 +22,20 @@ describe Solver do
         expect(@solver.reverse('ruby')).to eql 'ybur'
       end
     end
+
+    context 'the fizzbuzz method' do
+      it 'should display fizz when argument is divisible by 3' do
+        expect(@solver.fizzbuzz(3)).to eql 'fizz'
+      end
+      it 'should display buzz when argument is divisible by 5' do
+        expect(@solver.fizzbuzz(5)).to eql 'buzz'
+      end
+      it 'should display fizzbuzz when argument is divisible by 3 and 5' do
+        expect(@solver.fizzbuzz(15)).to eql 'fizzbuzz'
+      end
+      it 'should display argument when argument does not meet all conditions' do
+        expect(@solver.fizzbuzz(7)).to eql 7
+      end
+    end
   end
 end
