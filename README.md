@@ -70,14 +70,14 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Git installed in the desktop
+- Git installed on the desktop
 - Code editor of your choice i.e.; Visual Studio Code
 - RUBY
-- Terminal of your choice i.e; Git Bash or CMD or Terminal
+- Terminal of your choice i.e.; Git Bash or CMD or Terminal
 
 ### Setup
 
-Clone this [repository](repo:https://github.com/Stephen-Adom/tdd-project) to your desired folder.
+Clone this [repository](https://github.com/Stephen-Adom/tdd-project) to your desired folder.
 
 ### Install
 
