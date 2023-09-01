@@ -70,8 +70,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Git installed in desktop
-- Code editor of your choice i.e; Visual Studio Code
+- Git installed in the desktop
+- Code editor of your choice i.e.; Visual Studio Code
 - RUBY
 - Terminal of your choice i.e; Git Bash or CMD or Terminal
 
@@ -85,7 +85,7 @@ This project does not require installation.
 
 ### Usage
 
-**To run the project follow the following instruction:-**
+**To run the project follow the following instructions:-**
 
 - Clone this [repository](repo:https://github.com/Stephen-Adom/tdd-project) in your local machine with correct branch.
 - Run **ruby person.rb**
