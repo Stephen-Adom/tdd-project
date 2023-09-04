@@ -134,7 +134,7 @@ Feel free to check the [repo:https://github.com/Stephen-Adom/tdd-project]
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please follow me on github
+If you like this project please follow me on GitHub
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
