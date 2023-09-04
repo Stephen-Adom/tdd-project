@@ -64,7 +64,7 @@
 
 To get a local copy up and running, follow these steps.
 
-- clone this repo:https://github.com/Stephen-Adom/tdd-project
+- Clone this repo:https://github.com/Stephen-Adom/tdd-project
 
 ### Prerequisites
 
